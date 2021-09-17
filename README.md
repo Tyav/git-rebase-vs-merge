@@ -7,6 +7,10 @@ the origin branch's starting point. It does not create a merge commit.
 
 You should rebase in a target branch when there are changes in it. Pull and rebase
 
+Rebasing is better to streamline a complex history, you are able to change the commit history by interactive rebase. 
+You can remove undesired commits, squash two or more commits into one or edit the commit message.
+Rebase will present conflicts one commit at a time whereas merge will present them all at once.
+
 ```sh
 git pull origin feature --rebase # for pulling into the local repos branch
 
